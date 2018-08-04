@@ -1,0 +1,85 @@
+body{
+    height: 100vh;
+}
+#root{
+    height: 100%;
+    background-image: url(bt.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1  {
+    color: red;
+}
+
+#second_title {
+    background-color: yellow
+}
+
+.Text-italic{
+    font-style: italic
+}
+.bg-red {
+    background-color:#00CC99
+}
+
+.w-200px{
+    width: 200px;
+}
+.h-300px{
+    height: 250px;
+}
+.m-2{
+    margin: 20px
+}
+.p-2{
+    padding: 20px 10px 30px 10px
+}
+.Text-Justify{
+    text-align: justify
+}
+
+.d-inline-block{
+    display: inline-block;
+
+}
+.bg-blue{
+    background-color: #6262ce;
+}
+.d-inline{
+    display: inline;
+}
+
+.d-block{
+    display: block;
+}
+
+.w-500{
+    width: 500px;
+}
+
+.h-400p{
+    height: 400px;
+}
+.bg-red{
+    background-color: rgb(161, 98, 98)
+
+}
+.w-25{
+    width: 25px;
+}
+.h-75{
+    height: 75px;
+}
+
+/* flex  */
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-flow: row; */
+    justify-content: space-around;
+
+}
+.w-700{
+    width: 700px;
+}

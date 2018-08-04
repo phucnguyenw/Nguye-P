@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Movie gallery</title>
+  <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+  <div id="root" >
+    <div id="sidebar">
+      <ul>
+        <li  class="div_hover">Trending movie</li>
+        <li class="div_hover">History</li>
+        <li class="div_hover">My collections</li>
+        <li class="div_hover">Description</li>
+        <!-- <div class="div_hover">Change div background color when hover</div> -->
+      </ul>
+    </div>
+    <div id="main_panel">
+      <div class="title">
+        <h2>Trending movie</h2>
+      </div>
+      <div id="movie_list">
+        {% for movie in movies %}
+          <div class="movie_items">
+            <img src="{{movie.image_url}}" alt="">
+            <h3>{{movie.title}}</h3>
+            <h3 >{{movie.cast}}</h3>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    
+    
+
+  </div>
+</body>
+</html>
